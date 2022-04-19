@@ -1,137 +1,107 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Historia de Mar Vermelho</title>
-        <style>
-            #pag_cima{
-                display: flex;
-                width: 100%;
-                height: 100px;
-                background-color: red;
-                align-items: center;
-                color: rgb(255, 255, 255);
-                margin: 5px;
-            }
-            #dentro_cima{
-                display: flex;
-                width: 58%;
-                height: 60px;
-                background-color: red;
-                align-items: center;
-                margin: 90px;
-                justify-content: space-between;
-            }
-            #pag_menu{
-                height: 15%;
-                width: 15%;
-                background-color: green;
-                text-align: center;
-                float:left;
-                align-items: center;
-                margin: 5px;
-                padding: 5px;
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-            }
-            #pag_meio{
-                height: 50%;
-                width: 65%;
-                float: left;
-                text-align: center;
-                margin: 5px;
-                padding: 5px;
-            }
-            #prefeitos{
-                height: 100%;
-                width: 150px;
-                background-color: blue;
-                float: right;
-                text-align: center;
-            }
-            #traco{
-                text-decoration: underline;
-                color: rgb(255, 255, 255);
-            }
-            #div{
-                max-width: 320px;
-                max-height: 800px;
-                margin: auto;
-            }
-            #traco2{
-                text-decoration: underline;
-            }
-            #pag_menu a{
-                text-decoration: none;
-                display: block;
-                padding: 10px 14px;
-                color: yellow;
-            }
-            #pag_menu a:hover{
-                transition: 0,5s;
-                background-color: rgba(11, 179, 6, 0.829);
-                color:rgb(255, 0, 0);
-            }
-        </style>
-    </head>
-    <body>
-        <div id="pag_cima">
-            <div id="dentro_cima">
-                <img src="https://user-images.githubusercontent.com/98188181/152560019-7bcf0a8d-c130-493c-888f-2afe2c1331e1.png" width="60" height="60">
-                <h1 id="traco">Hermann Elson de Almeida filho</h1>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Hermann Elson de Almeida filho</title>
+  </head>
+  <body>
+      <!--Pagina Fixa, no caso a Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed col-12 m-auto" style="z-index: 999; ">
+          <img src="https://user-images.githubusercontent.com/98188181/152560019-7bcf0a8d-c130-493c-888f-2afe2c1331e1.png" height="30px" width="30px">
+          <h1 style="color: white;" >Historia</h1>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end m-auto " id="conteudoNavbarSuportado">
+            <div class="nav-item my-2 my-lg-0 ">
+              <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projHistoria/">Voltar</a>
             </div>
-        </div>
-        <div id="pag_menu">
-            <h3 id="traco">Prefeitos e Historia</h3>
-            <p><a href="https://luapablosda.github.io/projHistoria/">Voltar</a><p></p>
-            <p><a href="https://luapablosda.github.io/projPref711/">Ernesto</a></p>
-            <p><a href="https://luapablosda.github.io/projPref712/">Jerônimo</a></p>
-            <p><a href="https://luapablosda.github.io/proPref713/">Geraldo</a></p>
-            <p><a href="https://luapablosda.github.io/proPref714/">Abel</a></p>
-            <p><a href="https://luapablosda.github.io/projPref715/">Luiz Clarindo</a></p>
-            <p><a href="https://luapablosda.github.io/projPref716/">João Gomes</a></p>
-            <p><a href="https://luapablosda.github.io/projPref717/">Afrânio</a></p>
-        </div>
-        <div id="pag_meio">
-            <img src="https://user-images.githubusercontent.com/98188181/159741605-41c269c8-357c-43f5-8512-6271868b7682.jpg" width="250" height="250">
-            <h2>Sua Biografia</h2>
-            <p>Nasceu em 12 de maio em 1960 em Maceió, filho de Hermann Elson de Almeida e Maria Odete 
-                Lopes de Almeida. Inclinou seus estudos em 1964 no Colégio Nossa Senhora do Amparo(MAceió) . 
-                Com o falecimento do pai, mudou-se para Atalaia(AL), passando a residir na casa de sua irmã Viviane, 
-                que o matriculou no Colégio Dr.João Calor Morou dois anos com a irmã. A partir de 1968, foi matriculado 
-                no Colégio Marista(Maceió), onde estudou por oito anos, concluindo o Ensino Médio em 1978, Ingressa na 
-                Universidade Federal da retornando a Maceió. Ingressa na Universidade Federal de Alagoas e cursa 
-                Agronomia. Ao final do curso, estagiou em usinas alagoanas (Caeté e Uruba.)<br>
-                Em 1986, casou-se com a administradora de empresa Stella Cristiana Vasconcelos Brandão Almeida 
-                e fixou residência em Maceió. O casal tem dois filhos, Mariana e André. Em 1987 é contratado pela 
-                Usina São Simeão, no municipio de Murici(AL). Em 1992, ingressa na vida política como candidato a 
-                prefeitura de Mar Vermelho. Tomou-se popular, prestou serviços no municipio; no entanto, não conseguiu 
-                ser eleito. Mais não desanimou, agradeceu pessoalmente aos eleitores e permaneceu visitando os 
-                moradores, admitindo ser candidato na próxima eleição. O sonho foi se tornando real a cada dia, 
-                e, em 1996, Hermann registra a candidatura, percorrendo todos os sítios que exisem no município. 
-                Foi uma campanha longa. Meses antes da eleiçãonão havia mais dúvidas quanto a sua vitória. 
-                No dia 03 de outubro de 1996, nas urnas, foi confirmada a já esperada vitória.<br>
-                Antes da posse, o futuro prefeito já havia tomado conhecimento dos problemas emergencias
-                do município, e logo ao assumir, tomou medidas que não agradaram a alguns que estavam se 
-                benefiiado da máquina administrativa. Os conflitos, porém, deixanram de existir à medida 
-                que cada funcionário foi colocado na sua real função. Uma marca importante da sua gestão é a 
-                ênfase dada aos problemas sociais, aos problemas ligados à educação, à saúde e à moradia. Na 
-                educação, por exempro, tem sido cumprida a aplicação dos 25% do orcamento municipal(merenda, carteiras, 
-                fardamento, material didático, televisores, videos etc).
-             <h3>*OBRAS</h3>
-             1. Aquisição de 4 veículos para o municipio.<br>
-             2. Negociação dos débitos municipais(INSS, FGTS, CEAL, TELASA[hoje, TeLEMAR], CASAL etc.).<br>
-             3. Melhoramento do sistema de coleta de lixo.<br>
-             4. Serviço de limpeza de fossa com equipe apropriados.<br>
-             5. Reativação de 1 trator para ajudar pequeno proprietário.<br>
-             6. Implantação de concurso público e aplicação do Regime Jurídico dos Funcionário Públicos Municipais.<br>
-             7. Expansão  da rede elétrica para os sítios Cajaiba, Cana Brava, Boa Vista, Pedra de Fogo, Veados, Góiabeira e Sítio do meio.<br>
-             8. Construção de 114 casas populares através do Prográma Habitar Brasil.<br>
-             9. Construção de 91 unidades habitacionais através do Progama Habitar Brasil.<br>
-             10. reativação da Creche Municipal Maria Odete.<br>
-             11. Aquisição de 1 ambulânciajunto ao governo estadual<br>
-             12. Reativação do PACS (Programa dos Agentes Comunitário de Saúde).<br>
-             13. Melhoramento do atendimento do Centro de Saúde, com a contratação de médicos e dentistas diplomados.<br>
-             14. Criação do comitê PROGER (programa de Geração de Emprego).
-            </p>
-        </div>
-    </body>
+            <div class="nav-item my-2 my-lg-0">
+              <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref711/">Ernesto Neto</a>
+            </div>
+            <div class="nav-item my-2 my-lg-0">
+              <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref712/">Jerônimo</a>
+            </div>
+            <div class="nav-item my-2 my-lg-0">
+              <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref713/">Geraldo</a>
+            </div>
+            <div class="nav-item my-2 ">
+              <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref714/">Abel</a>
+            </div>
+            <div class="nav-item my-2 ">
+                <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref715/">João Gomes</a>
+            </div>
+            <div class="nav-item my-2 ">
+                <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref716/">Luiz Clarindo</a>
+            </div>
+            <div class="nav-item my-2 ">
+                <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref717/">Afrânio</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <br><br><br>
+      <br>
+      <!-- Até aqui a Pagina Fixa-->
+    <h1 class="text-center">Hermann Elson de Almeida filho</h1>
+    <div class="text-center">
+        <img src="https://user-images.githubusercontent.com/98188181/159741605-41c269c8-357c-43f5-8512-6271868b7682.jpg" class="rounded" width="250px" height="300px" >
+    </div>
+    <h6 class="text-center">E sua Biografia</h6>
+    <br>
+    <p class="text-center col-9 m-auto">Nasceu em 12 de maio em 1960 em Maceió, filho de Hermann Elson de Almeida e Maria Odete 
+        Lopes de Almeida. Inclinou seus estudos em 1964 no Colégio Nossa Senhora do Amparo(MAceió) . 
+        Com o falecimento do pai, mudou-se para Atalaia(AL), passando a residir na casa de sua irmã Viviane, 
+        que o matriculou no Colégio Dr.João Calor Morou dois anos com a irmã. A partir de 1968, foi matriculado 
+        no Colégio Marista(Maceió), onde estudou por oito anos, concluindo o Ensino Médio em 1978, Ingressa na 
+        Universidade Federal da retornando a Maceió. Ingressa na Universidade Federal de Alagoas e cursa 
+        Agronomia. Ao final do curso, estagiou em usinas alagoanas (Caeté e Uruba.)<br>
+        Em 1986, casou-se com a administradora de empresa Stella Cristiana Vasconcelos Brandão Almeida 
+        e fixou residência em Maceió. O casal tem dois filhos, Mariana e André. Em 1987 é contratado pela 
+        Usina São Simeão, no municipio de Murici(AL). Em 1992, ingressa na vida política como candidato a 
+        prefeitura de Mar Vermelho. Tomou-se popular, prestou serviços no municipio; no entanto, não conseguiu 
+        ser eleito. Mais não desanimou, agradeceu pessoalmente aos eleitores e permaneceu visitando os 
+        moradores, admitindo ser candidato na próxima eleição. O sonho foi se tornando real a cada dia, 
+        e, em 1996, Hermann registra a candidatura, percorrendo todos os sítios que exisem no município. 
+        Foi uma campanha longa. Meses antes da eleiçãonão havia mais dúvidas quanto a sua vitória. 
+        No dia 03 de outubro de 1996, nas urnas, foi confirmada a já esperada vitória.<br>
+        Antes da posse, o futuro prefeito já havia tomado conhecimento dos problemas emergencias
+        do município, e logo ao assumir, tomou medidas que não agradaram a alguns que estavam se 
+        benefiiado da máquina administrativa. Os conflitos, porém, deixanram de existir à medida 
+        que cada funcionário foi colocado na sua real função. Uma marca importante da sua gestão é a 
+        ênfase dada aos problemas sociais, aos problemas ligados à educação, à saúde e à moradia. Na 
+        educação, por exempro, tem sido cumprida a aplicação dos 25% do orcamento municipal(merenda, carteiras, 
+        fardamento, material didático, televisores, videos etc).</p>
+    <br>
+        <h3 class="text-center col-9 m-auto">*OBRAS:</h3>
+        <p class="test-center col-9 m-auto">
+            1. Aquisição de 4 veículos para o municipio.<br>
+            2. Negociação dos débitos municipais(INSS, FGTS, CEAL, TELASA[hoje, TeLEMAR], CASAL etc.).<br>
+            3. Melhoramento do sistema de coleta de lixo.<br>
+            4. Serviço de limpeza de fossa com equipe apropriados.<br>
+            5. Reativação de 1 trator para ajudar pequeno proprietário.<br>
+            6. Implantação de concurso público e aplicação do Regime Jurídico dos Funcionário Públicos Municipais.<br>
+            7. Expansão  da rede elétrica para os sítios Cajaiba, Cana Brava, Boa Vista, Pedra de Fogo, Veados, Góiabeira e Sítio do meio.<br>
+            8. Construção de 114 casas populares através do Prográma Habitar Brasil.<br>
+            9. Construção de 91 unidades habitacionais através do Progama Habitar Brasil.<br>
+            10. reativação da Creche Municipal Maria Odete.<br>
+            11. Aquisição de 1 ambulânciajunto ao governo estadual<br>
+            12. Reativação do PACS (Programa dos Agentes Comunitário de Saúde).<br>
+            13. Melhoramento do atendimento do Centro de Saúde, com a contratação de médicos e dentistas diplomados.<br>
+            14. Criação do comitê PROGER (programa de Geração de Emprego).<br>
+    <hr>
+    <br><br><br>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
